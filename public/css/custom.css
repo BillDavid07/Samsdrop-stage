@@ -1,0 +1,57 @@
+a, a:hover, a:active, a:focus {
+  outline: 0;
+}
+.page-heading .heading-title{
+	margin-top: 28px;
+}
+
+/* Login */
+.middle-box {
+    padding-top: 8%;
+}
+.middle-box h1 {
+    font-size: 70px;
+}
+.logo-name {
+    font-size: 70px;
+    letter-spacing: -10px;
+}
+
+/* Store Page */
+.ebay-logo{
+	background: url('../images/ebay-store.png') no-repeat top center; 
+	background-size: 100%;
+	width: 100px;
+	height: 41px;
+	display: inline-block;
+}
+#store_list .well {
+    height: 105px;
+    padding: 40px;
+    background-color: transparent;
+	border: 1px dashed #ccc;
+	box-shadow: none;
+	text-transform: capitalize;
+	text-align: center;
+	color: #888;
+	font-size: 18px;
+}
+#store_list a:hover .well, #store_list a:focus .well{
+	border-color: #bbb;
+	color: #777;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+#store_list a.is_store .well{
+	border: solid 1px #ffffff;
+	background-color: #ffffff;
+	color: #333333;
+	padding: 12px;
+}
+#store_list a.is_store .well .store-name{
+	color: #777777;
+	font-size: 15px;
+}
+#store_list a.is_store:hover .well, #store_list a.is_store:focus .well{
+	border-color: #eee;
+	color: #333333;
+}

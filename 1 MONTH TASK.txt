@@ -1,0 +1,55 @@
+1 MONTH TASK 
+
+1st week
+
+-setup project environment - Done
+-install bootstrap - Done
+-create static page template - Done
+-login functionality - Done
+-register functionality - Done
+-page authentication for login user - Done
+
+-login layout - Done
+-register layout - Done
+
+-dashboard and main page layout - Done
+-store list and add Store Layout - Done
+
+- add store page
+-- setup page layout - Done
+-- select destination and get api creds from ebay
+
+
+2nd week
+-- add functionality for getting athentication key for ebay
+-- after autheticated redirect to create listings page
+-- display tools menu  after setup amazon api
+- create listings page
+-- setup page layout
+-- setup source market (default:amazon - login and get API)
+-- create function for connecting to amazon product api
+
+
+3rd week
+-- add validation for checking the api key is correct
+-- create function for getting product data from amazon by batch (eg: page 1 to 10)
+-- add validation for not getting existing product
+Ebay Integration 
+- create function for product listings to push data on ebay store
+- validate push data 
+
+
+4th week
+- testing and validation
+-- getting api key from amazon
+-- getting item list from amazon
+-- getting api key from ebay
+-- push item from amazon to ebay
+
+
+
+
+
+
+
+
